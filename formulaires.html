@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>formulaire</title>
+</head>
+<body>
+    
+<Fieldset>
+    <h1>
+        Informations personnelles
+    </h1>
+    <form action="formulaires.html">
+    <fieldset>
+        <legend>Etat civil</legend>
+                <label for="sexe">Civilité</label><br>
+                <select name="civilité" id="sexe">
+                    <option value="M.">M.</option>
+                    <option value="Mme">Mme.</option>
+                </select>
+                <br>
+                <label for="Nom">Nom</label><br>
+                    <input type="text">
+                <br>
+                <label for="prenom">Prénom</label><br>
+                    <input type="text">
+                <br>
+                <label for="naissance">Date de naissance</label><br>
+                    <input type="date" name="naissane" id="date">
+                <br>
+                <label for="commune">Commune de naissance</label><br>
+                    <input type="text">
+                <br>
+                <select name="commune" id="naissance">
+                    <option value="a">Ardennes</option>
+                    <option value="b">Ile de France</option>
+                    <option value="c">Bretagne</option>
+                </select>
+           <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Coordonnées</legend>
+            <br>
+                <label for="tel">Téléphone</label><br>
+                <input type="number" name="tel" id="monTel">
+            <br>
+                <label for="mail">Courriel</label><br>
+            <br>
+                <input type="email" name="mail" id="personnel">
+            <br>
+                <label for="web">Site web</label><br>
+                    <input type="url" name="web" id="site">
+            <br>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Compétences</legend>
+        <div>
+            <label for="">Niveau d'anglais:</label>
+                    <input type="radio" name="C1" id="">C1
+                    <input type="radio" name="C1" id="">B1
+                    <input type="radio" name="C1" id="">A1
+
+        </div>   
+            <label for="">Langages informatiques:</label>
+                <label for="langages">HTML</label>
+                    <input type="checkbox" name="" id="">
+                <label for="langages">CSS</label>
+                    <input type="checkbox" name="" id="">
+                <label for="langages">Javascript</label>
+                    <input type="checkbox" name="" id="">
+                <label for="langages">PHP</label>
+                    <input type="checkbox" name="" id="">
+        <br>
+    </fieldset>
+    <br>
+            <label for="envoi"></label>
+                <input type="submit" value="Envoyer">
+            <label for="effacer"></label>
+                <input type="reset" value="Effacer">
+    </form>
+</Fieldset>
+</body>
+</html>
